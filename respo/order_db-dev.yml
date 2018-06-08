@@ -1,0 +1,33 @@
+server:  
+  port: 9501
+eureka:  
+  client:  
+    service-url:  
+      defaultZone: http://eureka:chunze1qaz2wsx@172.18.5.88:8761/eureka/,http://eureka:chunze1qaz2wsx@172.18.5.110:8761/eureka/
+  instance:  
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+spring:
+  application:  
+    name: order_db
+  datasource:
+    name: order_db
+    url: jdbc:mysql://172.18.5.110:3306/order_db
+    username: root
+    password: xinwei
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      initial-size: 1
+      min-idle: 5
+      max-active: 20
+  redis:
+    cluster:
+      nodes:
+      - redis01.cootel.com:9000
+      - redis02.cootel.com:9001
+      - redis03.cootel.com:9002
+      - redis04.cootel.com:9003
+      - redis05.cootel.com:9004
+      - redis06.cootel.com:9005
