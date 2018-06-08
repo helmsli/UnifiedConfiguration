@@ -10,8 +10,6 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
 spring:
-  application:  
-    name: config-client
   datasource:
     name: order-db
     url: jdbc:mysql://172.18.5.110:3306/order_db
