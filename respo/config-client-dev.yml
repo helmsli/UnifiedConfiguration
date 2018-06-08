@@ -22,12 +22,4 @@ spring:
       initial-size: 1
       min-idle: 5
       max-active: 20
-  redis:
-    cluster:
-      nodes:
-      - redis01.cootel.com:9000
-      - redis02.cootel.com:9001
-      - redis03.cootel.com:9002
-      - redis04.cootel.com:9003
-      - redis05.cootel.com:9004
-      - redis06.cootel.com:9005
+  
