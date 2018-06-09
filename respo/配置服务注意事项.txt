@@ -1,0 +1,3 @@
+1.在*.xml配置文件中，不能包括redis集群的配置特殊符号- 否则会导致config-client拉取配置文件解析失败，应该将对应的参数配置在properties中
+2.spring.application.name 需要配置在boostrap.yml中，如果在从git上拉取的文件中在配置一次，可能会导致一些别的异常，不建议这么配置
+3.统一配置会因为拉取配置文件失败而导致服务启动失败
