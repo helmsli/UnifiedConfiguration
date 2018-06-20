@@ -1,5 +1,5 @@
 server:
-  port: 8769
+  port: 8770
 zuul:
   routes:
     api-a:
