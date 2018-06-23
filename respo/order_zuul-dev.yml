@@ -6,5 +6,5 @@ zuul:
       path: /orderDb/**
       serviceId: order_db
     api-b:
-      path: /api-b/**
-      serviceId: feign-service  
+      path: /userOrderDb/**
+      serviceId: order_db  
