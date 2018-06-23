@@ -7,4 +7,4 @@ zuul:
       serviceId: order_db
     userOrderDb:
       path: /userOrderDb/**
-      serviceId: order_db  
+      serviceId: order_db
