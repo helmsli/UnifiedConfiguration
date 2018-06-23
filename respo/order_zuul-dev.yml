@@ -5,6 +5,6 @@ zuul:
     api-a:
       path: /orderDb/**
       serviceId: order_db
-    userOrderDb:
+    testa:
       path: /userOrderDb/**
       serviceId: order_db  
