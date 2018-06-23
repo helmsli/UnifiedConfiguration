@@ -1,5 +1,5 @@
 server:  
-  port: 8772
+  port: 8770
 zuul:
   routes:
     api-a:
