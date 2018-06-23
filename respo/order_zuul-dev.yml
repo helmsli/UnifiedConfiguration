@@ -6,5 +6,5 @@ zuul:
       path: /orderDb/**
       serviceId: order_db
     userOrderDb:
-      path: /**
+      path: /userOrderDb/**
       serviceId: order_db  
