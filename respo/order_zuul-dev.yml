@@ -1,10 +1,10 @@
 server:  
-  port: 8770
+  port: 8772
 zuul:
   routes:
     api-a:
-      path: /api-a/**
-      serviceId: ribbon-service
+      path: /orderDb/**
+      serviceId: order_db
     api-b:
       path: /api-b/**
       serviceId: feign-service  
