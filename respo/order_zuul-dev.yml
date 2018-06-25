@@ -3,8 +3,8 @@ server:
 zuul:
   routes:
     api-a:
-      path: /test/**
-      serviceId: order_db
+      path: /order_access/**
+      serviceId: order_access
     userOrderDb:
       path: /userOrderCloud/**
       serviceId: order_db
