@@ -3,7 +3,7 @@ server:
 zuul:
   routes:
     api-a:
-      path: /orderId/**
+      path: /test/**
       serviceId: order_db
     userOrderDb:
       path: /userOrderCloud/**
