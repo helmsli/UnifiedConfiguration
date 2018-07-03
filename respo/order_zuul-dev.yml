@@ -4,7 +4,7 @@ zuul:
   routes:
     api-a:
       path: /order_access/**
-      serviceId: order_access
+      serviceId: order-access
     userOrderDb:
       path: /userOrderCloud/**
       serviceId: order_db
