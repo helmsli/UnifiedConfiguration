@@ -7,4 +7,4 @@ zuul:
       serviceId: order-access
     userOrderDb:
       path: /userOrderCloud/**
-      serviceId: order_db
+      serviceId: order-db
