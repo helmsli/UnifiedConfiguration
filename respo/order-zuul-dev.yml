@@ -8,3 +8,6 @@ zuul:
     userOrderDb:
       path: /userOrderCloud/**
       serviceId: order-db
+    msgpush:
+      path: /msgpush/**
+      serviceId: coojisu-msgpush
