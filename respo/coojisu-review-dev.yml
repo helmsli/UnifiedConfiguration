@@ -4,3 +4,13 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
     lease-expiration-duration-in-seconds: 30
+spring:
+  redis:
+    cluster:
+      nodes:
+      - redis01.cootel.com:9000
+      - redis02.cootel.com:9001
+      - redis03.cootel.com:9002
+      - redis04.cootel.com:9003
+      - redis05.cootel.com:9004
+      - redis06.cootel.com:9005
