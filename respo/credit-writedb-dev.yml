@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    name: lottery_db_name
+    url: jdbc:mysql://127.0.0.1:3306/lotterydb
+    username: cmanager
+    password: cmanager
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      initial-size: 1
+      min-idle: 5
+      max-active: 20
