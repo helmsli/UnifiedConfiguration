@@ -1,9 +1,9 @@
 spring:
   datasource:
     name: lottery_db_name
-    url: jdbc:mysql://127.0.0.1:3306/lotterydb
-    username: cmanager
-    password: cmanager
+    url: jdbc:mysql://172.18.5.110:3306/lotterydb_wjm_test
+    username: root
+    password: xinwei
     driver-class-name: com.mysql.jdbc.Driver
     tomcat:
       initial-size: 1
