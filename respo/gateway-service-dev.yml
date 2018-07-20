@@ -1,3 +1,5 @@
+server:  
+  port: 9005
 spring:
   cloud:
     # 网关配置
