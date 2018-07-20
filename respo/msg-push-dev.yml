@@ -1,9 +1,5 @@
 server:
-  port: 9005
-eureka:
-  instance:
-    lease-renewal-interval-in-seconds: 10
-    lease-expiration-duration-in-seconds: 30
+  port: 9006
 spring:
     redis:
     cluster:
