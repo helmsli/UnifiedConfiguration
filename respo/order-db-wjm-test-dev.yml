@@ -1,0 +1,22 @@
+server:  
+  port: 9503
+eureka:  
+  client:  
+    service-url:  
+      defaultZone: http://eureka:chunze1qaz2wsx@172.18.5.88:8761/eureka/,http://eureka:chunze1qaz2wsx@172.18.5.110:8761/eureka/
+  instance:  
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+spring:
+  datasource:
+    name: order_db
+    url: jdbc:mysql://172.18.5.110:3306/user_dbcloud 
+    username: root
+    password: xinwei
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      initial-size: 1
+      min-idle: 5
+      max-active: 20
