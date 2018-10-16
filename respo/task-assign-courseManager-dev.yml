@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 9011
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
