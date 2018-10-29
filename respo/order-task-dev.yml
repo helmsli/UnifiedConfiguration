@@ -9,6 +9,7 @@ eureka:
     lease-expiration-duration-in-seconds: 30
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+spring:
   datasource:
     name: order_db
     url: jdbc:mysql://172.18.5.110:3306/user_dbcloud
