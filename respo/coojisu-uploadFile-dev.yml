@@ -16,8 +16,5 @@ fdfs:
     max-wait-millis: 102
   #thumb-image-scale:
   thumbImageScale:
-    thumb-scale-list:
-    - _middle:1.0:0.55
-    - _large:1.0:0.55
     thumb-size-list:
      - _128:128:128
