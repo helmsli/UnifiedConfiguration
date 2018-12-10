@@ -17,4 +17,4 @@ fdfs:
   thumbImageScale:
   #thumb-image-scale:
     thumb-size-list:
-     - _128:128:128
+     - _avatar:128:128
