@@ -14,7 +14,6 @@ fdfs:
     max-total: 153
     #获取连接时的最大等待毫秒数100
     max-wait-millis: 102
-  #thumb-image-scale:
-  thumbImageScale:
+  thumb-image-scale:
     thumb-size-list:
      - _128:128:128
