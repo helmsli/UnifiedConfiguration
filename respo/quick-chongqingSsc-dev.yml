@@ -1,6 +1,17 @@
 server:
-  port: 9003
+  port: 9004
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
     lease-expiration-duration-in-seconds: 30
+spring:
+  datasource:
+    name: user_dbcloud
+    url: jdbc:mysql://172.18.5.110:3306/user_dbcloud
+    username: root
+    password: xinwei
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      initial-size: 1
+      min-idle: 5
+      max-active: 20   
