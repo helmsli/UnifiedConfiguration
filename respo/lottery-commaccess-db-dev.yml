@@ -1,7 +1,7 @@
 spring:
   datasource:
     name: lottery_db_name
-    url: jdbc:mysql://172.18.10.73:3306/lotterydb_access
+    url: jdbc:mysql://172.18.10.73:3306/lotterydb_access?useUnicode=true&characterEncoding=utf-8
     username: root
     password: xinwei
     driver-class-name: com.mysql.jdbc.Driver
