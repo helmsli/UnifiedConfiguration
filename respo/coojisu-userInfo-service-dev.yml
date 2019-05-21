@@ -19,4 +19,4 @@ spring:
 coojisu:
     userInfo:
       nickname-generate:
-        prefix：用户
+        prefix: 用户
