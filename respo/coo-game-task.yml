@@ -1,0 +1,18 @@
+server:
+  port: 9101
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+
+spring:
+  datasource:
+    name: coo_game_task
+    url: jdbc:mysql://172.18.10.73:3306/coo_game_task?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: xinwei
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      initial-size: 1
+      min-idle: 5
+      max-active: 20
