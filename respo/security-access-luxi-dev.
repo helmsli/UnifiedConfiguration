@@ -1,0 +1,52 @@
+# Server config
+server.port=9088
+server.tomcat.max-threads=250
+
+spring.jackson.time-zone=GMT+8
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+spring.session.store-type=redis
+#spring.session.store-type=none
+#check crc key
+db.dbUserkey=company
+hessian.transferUserKey=company
+#smc valid
+smsValidCode.durSeconds=300
+
+
+
+#hessin service
+hessian.mainUserDb=http://127.0.0.1:8088/securitydb/hessian/
+
+hessian.readUserDb=http://127.0.0.1:8088/securitydb/hessian/
+
+
+#write db syn to read db seconds
+user.synReadDbSeconds=60
+
+#session configuration
+session.webDurSeconds=3600
+session.mobileDurSeconds=3600
+session.padDurSeconds=3600
+session.pcDurSeconds=3600
+
+
+#userid configuration
+userid.localPrefix=100
+
+#modify static not restart
+spring.devtools.restart.exclude = static/**,templates/**
+spring.thymeleaf.cache=false
+spring.thymeleaf.content-type=text/html 
+spring.thymeleaf.mode =LEGACYHTML5
+
+spring.redis.timeout=20000
+#spring.redis.host=101.200.166.163
+#spring.redis.sentinel.nodes=101.200.166.163:9000,101.200.166.163:9001,101.200.166.163:9002,101.200.166.163:9003,101.200.166.163:9004,101.200.166.163:9005
+#spring.redis.cluster.nodes=101.200.166.163:9000,101.200.166.163:9001,101.200.166.163:9002,101.200.166.163:9003,101.200.166.163:9004,101.200.166.163:9005
+
+#white list configuration
+controller.urlWhiteList=/home/login
+controller.onlyAuthAjax=1
+controller.loginUrl=/home/login
+#define the node id for user,the length of idnode should be four
+server.idnode=1234
