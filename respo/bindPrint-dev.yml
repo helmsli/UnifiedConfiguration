@@ -1,0 +1,27 @@
+server:
+  port: 3344
+
+
+spring:
+  redis:
+    timeout: 20000
+    cluster:
+      nodes:
+      - redis01.cootel.com:9000
+      - redis02.cootel.com:9001
+      - redis03.cootel.com:9002
+      - redis04.cootel.com:9003
+      - redis05.cootel.com:9004
+      - redis06.cootel.com:9005
+    jedis:
+      pool:
+        maxIdle: 10
+        minIdle: 5
+        maxActive: 1000
+
+  datasource:
+    name: fiberopticmis
+    url: jdbc:mysql://172.18.5.131:3306/fiberopticmis
+    username: root
+    password: xinwei
+    driver-class-name: com.mysql.jdbc.Driver
