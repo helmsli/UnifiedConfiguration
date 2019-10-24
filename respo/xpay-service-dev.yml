@@ -1,0 +1,14 @@
+server:
+  port: 9996
+  servlet:
+    context-path: /XpayBankService
+xpay:
+  bank:
+    sdkip: epaymentuat.acledabank.com.kh
+    sdkport: 9443
+    channelName: NextBank
+    merchantName: CooBill
+    merchantId: Iv7guYSRaGlbn8VtE6ggOcvJaEw=
+    loginid: coobillusr
+    loginpwd: coobillusr
+    secretCode: 4c3a0a7e997b
