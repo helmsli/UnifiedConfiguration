@@ -1,5 +1,4 @@
 server:
-  port: 9996
   servlet:
     context-path: /XpayBankService
 xpay:
