@@ -13,9 +13,9 @@ xpay:
     loginpwd: coobillusr
     secretCode: 4c3a0a7e997b
     maxSingleKHR: 2000000
-	  maxSingleUSD: 500
+    maxSingleUSD: 500
     userDayQuota: 5000
-	  totalDayQuota: 500000
+    totalDayQuota: 500000
 
 coobill-info:
   #currencyType: 2
