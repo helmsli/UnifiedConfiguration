@@ -3,6 +3,7 @@ server:
     context-path: /XpayBankService
 xpay:
   bank:
+    version: 1
     sdkip: epaymentuat.acledabank.com.kh
     sdkport: 9443
     channelName: NextBank
