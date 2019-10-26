@@ -27,4 +27,5 @@ coobill-info:
   woffAccessUrl: http://172.18.5.123:8093/woff_access/hessian/
   authcenterUrl: http://172.18.5.85/authcenter/hessian/ 
   coobillDeductPassWord: kdjfdkjkdjf*($^^&*HBFXC 
-      
+  transferFee_USD: 0.25
+	transferFee_KHR: 1000
