@@ -19,7 +19,7 @@ xpay:
 
 coobill-info:
   #currencyType: 2
-  notifyUrl:  http://172.18.3.227:8599/fd_ordersys/payOrder
+  notifyUrl:  http://172.18.10.73:9996/xpay-service/
   thirdpartySubsId: 1644468495
   validTime: 86400
   partnerId: 3804
