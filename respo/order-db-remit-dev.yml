@@ -12,7 +12,7 @@ eureka:
 spring:
   datasource:
     name: order_db
-    url: jdbc:mysql://172.18.5.110:3306/order_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false 
+    url: jdbc:mysql://172.18.5.110:3306/order_db_remit?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false 
     username: root
     password: xinwei
     driver-class-name: com.mysql.jdbc.Driver
