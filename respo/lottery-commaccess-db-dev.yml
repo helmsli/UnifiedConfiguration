@@ -10,9 +10,4 @@ spring:
       min-idle: 5
       max-active: 20
 
-  rabbitmq:
-    host: 172.18.10.12
-    port: 5672
-    username: rabbitmq
-    password: rabbitmq
-    virtual-host: myvhost
+  
