@@ -1,10 +1,3 @@
-server:
-  port: 9002
-eureka:
-  instance:
-    lease-renewal-interval-in-seconds: 10
-    lease-expiration-duration-in-seconds: 30
-
 spring:
   datasource:
     name: order_db
@@ -17,3 +10,18 @@ spring:
       initial-size: 1
       min-idle: 5
       max-active: 20
+  
+  redis:
+    cluster:
+      nodes:
+      - 172.18.5.123:9000
+      - 172.18.5.123:9001
+      - 172.18.5.123:9002
+      - 172.18.5.123:9003
+      - 172.18.5.123:9004
+      - 172.18.5.123:9005
+
+server:
+  port: 9006
+  servlet:
+    context-path: /game
