@@ -13,6 +13,5 @@ spring:
 
 
 server:
-  port: 9006
   servlet:
     context-path: /game
