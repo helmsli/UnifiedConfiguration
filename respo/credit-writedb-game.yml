@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    name: lottery_db_name
+    url: jdbc:mysql://172.16.1.118:3306/lotterydb_niu?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: xinwei2017#
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      initial-size: 1
+      min-idle: 5
+      max-active: 20
+
+  rabbitmq:
+    host: 172.18.10.12
+    port: 5672
+    username: rabbitmq
+    password: rabbitmq
+    virtual-host: myvhost
