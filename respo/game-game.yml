@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    name: order_db
+    url: jdbc:mysql://172.16.1.118:3306/game?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    username: root
+    password: xinwei2017#
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      initial-size: 1
+      min-idle: 5
+      max-active: 20
+
+
+server:
+  servlet:
+    context-path: /game
